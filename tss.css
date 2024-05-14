@@ -219,18 +219,8 @@ footer a {
   margin-bottom: 20px;
   
 }
-.logo{
-  height: auto;
-  width: auto;
-}
-.logoes {
-  width:50px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  position: relative; 
-  top: -100px;
-}
+
+
 .copy{
   font-size: 20px;
   align-items: center;
@@ -261,7 +251,7 @@ footer a {
 /* Table's design */
 .form-container {
   border: 2px solid #000000;
-  max-width: 600px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
   border: 1px solid #000000;
@@ -273,13 +263,31 @@ footer a {
 label {
   font-weight: bold;
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 input[type="text"] {
   width: 100%;
-  height: 30px;
-  padding: 8px;
-  margin-bottom: 10px;
+  height: 50px;
+  padding: 15px;
+  margin-bottom: 5px;
+  border: 1px solid #0e0e0e;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="email"] {
+  width: 100%;
+  height: 50px;
+  padding: 15px;
+  margin-bottom: 5px;
+  border: 1px solid #0e0e0e;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="number"] {
+  width: 100%;
+  height: 50px;
+  padding: 15px;
+  margin-bottom: 5px;
   border: 1px solid #0e0e0e;
   border-radius: 4px;
   box-sizing: border-box;
@@ -290,8 +298,10 @@ input[type="submit"] {
   color: white;
   padding: 10px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
   cursor: pointer;
+  margin-top: 30px;
+
 }
 
 input[type="submit"]:hover {

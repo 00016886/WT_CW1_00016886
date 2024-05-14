@@ -40,23 +40,23 @@
         <div class="form-container">
           <img src="images/cards.png" alt="cards">  
           <h2>Save thousands of dollars per year with our fuel card!</h2>
-            <form action="#" method="post">
+            <form  name="apply" onsubmit="return validatForm()" method="post">
                 <label for="name">Name *</label>
                 <input type="text" id="name" name="name" required>
                 
                 <label for="phone">Phone number *</label>
-                <input type="text" id="phone" name="phone" required>
+                <input type="number" id="phone" name="phone" required>
                 
                 <label for="email">Email</label>
-                <input type="text" id="email" name="email">
+                <input type="email" id="email" name="email">
                 
                 <label for="company">Company name *</label>
                 <input type="text" id="company" name="company" required>
                 
-                <label for="trucks">How many trucks do you have?</label>
-                <input type="text" id="trucks" name="trucks">
+                <label for="trucks">How many trucks do you have? *</label>
+                <input type="number" id="trucks" name="trucks" required>
                 
-                <input type="submit" value="Send">
+                <input class="submit" type="submit" value="Submit">
             </form>
         </div>
         <footer>
@@ -66,11 +66,7 @@
               <a href="">+1 (888) 403 77 78</a>
               <a href="https://outlook.office.com/mail/">
                 admin@tsst.ai</a>
-                <div class="logoes">
-                  <a href="https://www.facebook.com/tssfuel"><i class="fa-brands fa-square-facebook"></i></a>
-                  <a href="https://www.instagram.com/tssfuel_official/"><i class="fa-brands fa-instagram"></i></a>
-                  <a href="https://t.me/tss_fuelcard"><i class="fa-brands fa-telegram"></i></a>
-                </div>
+               
           </nav>       
       </footer>
         </body>
