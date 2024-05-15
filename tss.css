@@ -25,9 +25,7 @@ body {
 .header {
   padding: 20px;
   display: flex;
-  align-items: center;
-  
-}
+  align-items: center;}
 .head,
 .head h3,
 .head h2{
@@ -69,6 +67,7 @@ body {
   
 }
 
+
 .first {
   justify-content: space-between;
 }
@@ -76,9 +75,8 @@ body {
 .connect a,
 .third a,
 .fourth a,
-.contacts a {
+.contacts a  {
   background-color: rgb(205, 205, 205);
-  text-decoration: bold;
   color: #882939(255, 0, 0);
   border: none;
   border-radius: 15px;
@@ -90,23 +88,6 @@ body {
   margin: 6px 8px;
   cursor: pointer;
   box-shadow: 6px 6px 8px #c8c8c8;
-  width: 600px;
-}
-.call a {
-  background-color: #882939;
-  color: white;
-  border: none;
-  border-radius: 15px;
-  padding: 0px 5px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 10px;
-  margin: 10px 75px;
-  cursor: progress;
-  box-shadow: 6px 6px 8px #c8c8c8;
-  width: 600px;
-  height: 100px;
 }
 .connect a {
   background-color: #882939;
@@ -120,7 +101,7 @@ body {
 .contacts_card:hover {
   background-color: #882939;
   color: rgb(219, 219, 219);
-  transition: color 0.2s ease;
+  transition: color 0.4s ease;
   animation-name: button-press;
   animation-duration: 2s;
   animation-timing-function: ease;
@@ -130,14 +111,6 @@ body {
   background-color: rgb(255, 255, 255);
   color: #882939;
 }
-.call a:hover {
-  background-color: #ffffff;
-  color: #882939;
-  transition: color 0.2s ease;
-  animation-name: button-press;
-  animation-duration: 2s;
-  animation-timing-function: ease;
-  animation-iteration-count: 1;}
 
 @keyframes button-press {
   0% {
@@ -150,14 +123,6 @@ body {
     transform: translateY(5px);
   }
 }
-.phone a {
-  font-size: 40px;
-  font-weight: medium;
-  padding: 20px 20px;
-}
-.phone a:hover {
-  font-style: bold;
-}
 .fourth {
   left: 28%;
   bottom: 10%;
@@ -166,10 +131,12 @@ body {
 .containerb {
   font-size: 75px;
   font-style: bold;
+  margin-bottom: 20px;
 }
 .containerc {
   font-size: 35px;
   font-style: bold;
+  margin-bottom: 20px;
 }
 
 i {
@@ -179,15 +146,7 @@ i {
   color: #882939;
   ;
 }
-.phone i {
-  display: inline;
-  color: #d6d6d6;
-}
-.phone a :hover {
-  color: #882939;
-  animation-duration: 2s;
-  animation-iteration-count: 2;
-}
+
 .arial {
   font-size: 25px;
 }
@@ -197,33 +156,11 @@ i {
   font-size: larger;
   
 }
-footer {
-  background-color: #1a1a1a;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-  position: bottom;
-  bottom: 0;
-  width: 100%;
-  height: 250px;
-  flex-direction: column;
-  margin-bottom: 20px;
-}
-footer a {
-  color: #fff;
-  text-decoration: none;
-  margin: 0 50px;
-  font-size: 20px;
-  float: right;
-  margin-bottom: auto;
-  margin-bottom: 20px;
-  
-}
-
-
 .copy{
-  font-size: 20px;
+  font-size: 30px;
   align-items: center;
+  margin-right: auto;
+  color: #ffffff;
 }
 /* Benefits page's design */
 .content {
@@ -250,11 +187,9 @@ footer a {
 }
 /* Table's design */
 .form-container {
-  border: 2px solid #000000;
   max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
-  border: 1px solid #000000;
   border-radius: 5px;
   background-color: #f9f9f9;
 }
@@ -301,9 +236,81 @@ input[type="submit"] {
   border-radius: 5px;
   cursor: pointer;
   margin-top: 30px;
+  height: 40px;
+  
+  justify-content: center;
+  align-items: center;
+
 
 }
 
 input[type="submit"]:hover {
   background-color: #882939;
 }
+footer {
+  border-color: rgb(179, 178, 178);
+  display: flex;
+  margin-top: 30px;
+  padding-top: 20px;
+  float: bottom;
+}
+.col a {
+  text-align: left;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 15px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+.col h2 {
+  text-transform: uppercase;
+  color: #882939;
+  font-weight: 500;
+}contacts
+.col a:hover {
+  text-decoration: underline
+}
+.contacts a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.footer-container
+ {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #626262;
+    max-width: 100%;
+  }
+  .col a {
+    text-align: center;}
+
+
+.phone-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #882939;
+  text-align: center;
+  flex-direction: column;
+  height: 200px;
+
+}
+.phoneshow, .phonenumber {
+  display: inline-block;
+}
+.phoneshow{  
+  background-color: #ffffff;
+  color: #882939(255, 0, 0);
+  border: none;
+  border-radius: 15px;
+  width: 150px;
+  font-size: 19px;
+  cursor: pointer;
+  box-shadow: 6px 6px 8px #c8c8c8;}
+
+  .phoneshow :hover{background-color: #882939;
+  color: rgb(219, 219, 219);
+  transition: color 0.4s ease; }
