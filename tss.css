@@ -133,6 +133,9 @@ body {
   font-style: bold;
   margin-bottom: 20px;
 }
+.containerb p{
+  margin-bottom: 10px;
+}
 .containerc {
   font-size: 35px;
   font-style: bold;
@@ -144,11 +147,11 @@ i {
   text-align: center;
   padding: 22px 13px;
   color: #882939;
-  ;
 }
 
 .arial {
   font-size: 25px;
+  
 }
 .ta{
   height: 400px;
@@ -286,31 +289,3 @@ footer {
   }
   .col a {
     text-align: center;}
-
-
-.phone-top {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: #882939;
-  text-align: center;
-  flex-direction: column;
-  height: 200px;
-
-}
-.phoneshow, .phonenumber {
-  display: inline-block;
-}
-.phoneshow{  
-  background-color: #ffffff;
-  color: #882939(255, 0, 0);
-  border: none;
-  border-radius: 15px;
-  width: 150px;
-  font-size: 19px;
-  cursor: pointer;
-  box-shadow: 6px 6px 8px #c8c8c8;}
-
-  .phoneshow :hover{background-color: #882939;
-  color: rgb(219, 219, 219);
-  transition: color 0.4s ease; }
