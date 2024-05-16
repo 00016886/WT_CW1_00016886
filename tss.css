@@ -111,7 +111,7 @@ body {
   background-color: rgb(255, 255, 255);
   color: #882939;
 }
-
+/* Designing the icons and some text on the homepage*/ 
 @keyframes button-press {
   0% {
     transform: translateY(5px);
@@ -229,7 +229,9 @@ i {
   font-size: 30px;
 }
 .wexpartner{margin-left: 800px;}
+
 .truckstops{margin-left: 800px;}
+
 /* Table's design */
 .form-container {
   max-width: 1000px;
