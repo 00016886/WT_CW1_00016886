@@ -1,9 +1,10 @@
+/* Importing useful font family */ 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 * {
   box-sizing: border-box;
   width: 100%;
 }
-
+/* Designing the body part*/
 body {
   margin: 0 auto;
   font-family: "Montserrat";
@@ -12,9 +13,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-.container,
-.ta{
+/* Designing the main container of the pages*/
+.container{
     max-width: 1320px;
     margin-right: auto;
     margin-left: auto;
@@ -40,7 +40,7 @@ body {
   text-decoration: bold;
   color: #882939;
   font-size: 19px;
-  color: #882939(205, 39, 39);
+  color: #882939;
   margin: 0px 8px;
   font-weight: 700;
 }
@@ -130,7 +130,6 @@ body {
 
 .containerb {
   font-size: 75px;
-  font-style: bold;
   margin-bottom: 20px;
 }
 .containerb p{
@@ -138,7 +137,6 @@ body {
 }
 .containerc {
   font-size: 35px;
-  font-style: bold;
   margin-bottom: 20px;
 }
 
@@ -277,7 +275,6 @@ input[type="submit"] {
   background-color: #882939;
   color: white;
   padding: 10px 20px;
-  border: none;
   border-radius: 5px;
   cursor: pointer;
   margin-top: 30px;
