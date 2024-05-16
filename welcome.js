@@ -1,5 +1,5 @@
 window.onload = function() {
-    alert("Welcome to TSS! Call back +1 (888) 403 77 78 and get fuel cards!");
+    alert("Welcome to TSS! Call back to +1 (888) 403 77 78 and get Fuel Cards!");
 };
 function validateForm() {
     let name = document.forms["apply"]["name"].value;
